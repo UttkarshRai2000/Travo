@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel With Us| Travo.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Photo2.png" alt="Travo.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to Travo.com</h1>
+        <p>Enjoy your travel with all the safety. </p>
+        <p>Click the below button to book your travel related tickets.</p>
+        <button class="btn">Book Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="Photo3.jfif" alt="Flight">
+                <h2 class="h-secondary center">Book your Flight</h2>
+                <p class="center">Book the flight with us and get the exclusive offers on your next travel.  </p>
+            </div>
+            <div class="box">
+                <img src="Photo4.jfif" alt="Hotels">
+                <h2 class="h-secondary center">Book your Hotels</h2>
+                <p class="center">You will get hotels in cheap prices all over the world. And also you will get discount on your first 3 booking.</p>
+            </div>
+            <div class="box">
+                <img src="Photo5.png" alt="Places to visit">
+                <h2 class="h-secondary center">Places to visit</h2>
+                <p class="center">There are lot of countries to explore with your naked eyes and believe me you will be surprised to know that we are giving you people a affordable tickets so that you feel the romance of Paris or cultures of Rajasthan. There is lot to know, so book your ticket now.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="download.jfif" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="download 2.jfif" alt="Our Client">
+            </div>
+          
+            <div class="client-item">
+                <img src="download 3.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="download 4.png" alt="Our Client">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button>Submit Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.Travo.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
